@@ -105,3 +105,28 @@ transition: all ease-in-out 300ms;
   margin: 0 auto; 
 }
 
+.sponser{
+  background-color: #fff;
+  padding-top: 2rem;
+  width: 100%;
+  padding-bottom: 3rem;
+}
+#img_cont {
+  display: table;
+  width: 90%;
+  margin: 20px auto;
+}
+
+#img_cont {
+  display: table-cell;
+  text-align: center;
+  width: 16%;
+}
+
+#img_cont img {
+  margin:0.5rem;
+  width: 100%;
+  max-width: 150px;
+}
+
+
