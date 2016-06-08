@@ -247,6 +247,7 @@ transition: all ease-in-out 300ms;
 }
 
 #social-media-links {
+  margin-top: -1px;
   background-color: white;
   font-size: 12vw;
   /*margin: 0 auto;*/
