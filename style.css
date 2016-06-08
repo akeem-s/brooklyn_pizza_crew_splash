@@ -1,5 +1,5 @@
 body{
-  font-family: 'GothamBook',Helmet,Freesans,sans-serif;
+  font-family: 'Didot',Helmet,Freesans,sans-serif;
   background-color:rgb(162, 56, 68);
 }
 
@@ -242,8 +242,46 @@ padding: 1em 2em;
 box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
 cursor: pointer;
 transition: all ease-in-out 300ms;
-  
-
 }
 
 }
+
+#social-media-links {
+  background-color: white;
+  font-size: 12vw;
+  /*margin: 0 auto;*/
+  /*text-align: center; */
+}
+
+.fa-instagram {
+  color: rgb(162, 56, 68);
+  margin-right: 8vw;
+  display: inline-block;
+  vertical-align: bottom;
+  line-height: 50px;
+  text-align: center;
+  position: relative;
+  left: 27vw;
+}
+
+.fa-facebook-official {
+  color: rgb(162, 56, 68);
+  margin-left: 8vw;
+  display: inline-block;
+  vertical-align: bottom;
+  line-height: 50px;
+  position: relative;
+  left: 33vw;
+}
+
+.centerWrapper:before {
+    content:'';
+    height: 100%;
+    display: inline-block;
+}
+
+.center {
+    display:inline-block;
+}
+
+
