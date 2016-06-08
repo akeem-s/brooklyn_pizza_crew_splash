@@ -18,7 +18,7 @@ padding:0;
 }
 
 .subscribe{
-  margin-top: 3px;
+  margin-top: -1px;
 }
 .container a{
   float: none;
@@ -126,6 +126,9 @@ transition: all ease-in-out 300ms;
   max-width: 150px;
 }
 
+footer{
+  width:100%;
+}
 
 
 @import url(http://weloveiconfonts.com/api/?family=fontawesome);
@@ -143,12 +146,7 @@ transition: all ease-in-out 300ms;
 .fa-angle-double-down:before {content: "\f103";}
  
 .bounce {
- position: absolute;
- bottom: 30px;
- left: 50% ;
- width: 60px;
- height: 60px ;
- margin-left:-30px;
+padding-top:1rem;
  /*border: 2px solid #990000;*/
  -webkit-border-radius:50%;
  -moz-border-radius:50%;
@@ -182,3 +180,5 @@ transition: all ease-in-out 300ms;
  40% {transform: translateY(-30px);}
  60% {transform: translateY(-15px);}
 }
+
+
