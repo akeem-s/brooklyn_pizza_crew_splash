@@ -16,8 +16,9 @@ padding:0;
   line-height: 1em;
   letter-spacing: 1.5px;
 }
-.arrow{
-  width:2px;
+i{
+color: #fff;
+margin-top: 1rem;
 }
 .subscribe{
   margin-top: 3px;
