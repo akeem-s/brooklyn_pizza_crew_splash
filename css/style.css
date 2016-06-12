@@ -1,5 +1,19 @@
-.welcome {
+.welcome{
   background-color: blue;
-  width: 30rem; }
-  .welcome h1 {
-    color: red; }
+  width:30rem;
+}
+
+h1{
+  color: red;
+}
+#video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh; 
+  padding: 0;
+  margin: 0;
+  border: 0;
+  
+}
