@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  $('#unmute-button').hide()
+  $("#mailchimp").hide();
   $("video").prop('muted', true);
 
   $("#unmute-button").click( function (){
@@ -9,6 +11,13 @@ $(document).ready(function() {
     }
   });
   
-  // $('#unmute-button').delay(5000).fadeOut('slow');
+  
   $('video').click(function(){this.paused?this.play():this.pause();});
+
+  $("#video-section").mousemove(function(event){
+    $('#unmute-button').show();
+    $("#mailchimp").show();
+    $("#mailchimp").delay(2000).fadeOut('slow');
+    $('#unmute-button').delay(2000).fadeOut('slow');
+  })
 });

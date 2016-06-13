@@ -99,7 +99,8 @@ input {
        -o-transition: all 1s ease;
       -ms-transition: all 1s ease;
           transition: all 1s ease;
-  -webkit-filter: grayscale(70%);
+  -webkit-filter: grayscale(90%);
+  border-radius: 20%;
 }
 
 .sponsor-image:hover {
