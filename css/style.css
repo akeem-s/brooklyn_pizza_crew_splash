@@ -51,11 +51,14 @@ input {
 
 #volume-controls {
   position: absolute;
+  bottom: 0;
+  right: 13vw;
   z-index: 12;
-  height: 30vh;
-  width: 30vw;
+/*  height: 30vh;
+  width: 30vw;*/
   display:inline-block;
-  font-size: 12vw;
+  font-size: 4vw;
+  bottom: 10vh;
 }
 
 .fa-volume-up {
