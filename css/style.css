@@ -1,32 +1,38 @@
-.welcome{
-  background-color: blue;
-  width:30rem;
+#video-section {
+  display: block;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background-color: black;
 }
 
 #video {
-  position: absolute;
+  position: relative;
+  display: inline-block;
   left: 0;
-  top: 0;
+  top: 0vh;
   width: 100vw;
   height: 100vh; 
   padding: 0;
   margin: 0;
   border: 0;
   z-index: -100;
-  
+  z-index: 1;
 }
 
 #logo {
-  position: relative;
-  top: 0;
+  position: absolute;
+  top: ;
   left: 13vw;
-  z-index: 1;
+  z-index: 10;
   color: white;
 }
 
 #mailchimp {
-  position: relative;
-  z-index: 2;
+  position: absolute;
+  z-index: 10;
   padding: 0;
   max-width: 100%;
   color: white;
@@ -39,6 +45,121 @@ input {
 }
 
 #unmute-button {
-  position: relative;
-  z-index: 1;
+  position: absolute;
+  z-index: 10 ;
+  top: 0;
 }
+
+#volume-controls {
+  position: absolute;
+  bottom: 0;
+  right: 13vw;
+  z-index: 12;
+/*  height: 30vh;
+  width: 30vw;*/
+  display:inline-block;
+  font-size: 4vw;
+  bottom: 10vh;
+}
+
+.fa-volume-up {
+  position: absolute;
+  z-index: 12;
+  height: 10vh;
+  width: 10vw;
+  color: white;
+}
+
+.fa-volume-off {
+  position: absolute;
+  z-index: 12;
+  height: 10vh;
+  width: 10vw;
+  color: white;
+}
+
+/*Details Section CSS*/
+
+#details-section {
+  position: relative;
+  display: block;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
+
+#nino-photo {
+  position: absolute;
+  display: inline-block;
+  top: 6vh;
+  left: 7.3vw;
+  height: auto;
+  max-width: 35%;
+}
+
+#video-description {
+  position: absolute;
+  display: inline-block;
+  top: 6vh;
+  right: 3vw;
+  color: white;
+  width: 40vw;
+  right: 7.3vw;
+}
+
+#sponsor-bar {
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  padding-top: 3vh; 
+  width: 90vw;
+  text-align: center;
+}
+
+#sponsor-bar li {
+  display: inline;
+  overflow: hidden;
+}
+
+.sponsor-image {
+  /*box-shadow: 0px 313px rgba(255, 0, 92, 0.6) inset;*/
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+  -webkit-filter: grayscale(90%);
+  border-radius: 20%;
+}
+
+.sponsor-image:hover {
+  -webkit-filter: grayscale(0%);
+}
+
+#caputo {
+  max-width: 12%;
+  height: auto;
+}
+
+#ciao {
+  max-width: 13%;
+  height: auto;
+}
+
+#dfbk {
+  max-width: 20%;
+  height: auto;
+}
+
+#marra {
+  max-width: 20%;
+  height: auto;
+}
+
+#orlando {
+  max-width: 20%;
+  height: auto;
+}
+
+
+
