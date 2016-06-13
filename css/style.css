@@ -66,6 +66,7 @@ input {
   z-index: 12;
   height: 10vh;
   width: 10vw;
+  color: white;
 }
 
 .fa-volume-off {
@@ -73,6 +74,7 @@ input {
   z-index: 12;
   height: 10vh;
   width: 10vw;
+  color: white;
 }
 
 /*Details Section CSS*/
