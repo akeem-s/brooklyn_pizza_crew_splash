@@ -55,9 +55,17 @@ input {
   height: 30vh;
   width: 30vw;
   display:inline-block;
+  font-size: 12vw;
 }
 
-.fa {
+.fa-volume-up {
+  position: absolute;
+  z-index: 12;
+  height: 10vh;
+  width: 10vw;
+}
+
+.fa-volume-off {
   position: absolute;
   z-index: 12;
   height: 10vh;
