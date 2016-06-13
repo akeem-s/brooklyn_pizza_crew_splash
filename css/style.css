@@ -1,10 +1,15 @@
-.welcome{
-  background-color: blue;
-  width:30rem;
+#video-section {
+  display: block;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
 }
 
 #video {
-  position: absolute;
+  position: relative;
+  display: inline-block;
   left: 0;
   top: 0;
   width: 100vw;
@@ -12,20 +17,20 @@
   padding: 0;
   margin: 0;
   border: 0;
-  
+  z-index: 1;
 }
 
 #logo {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 13vw;
-  z-index: 1;
+  z-index: 10;
   color: white;
 }
 
 #mailchimp {
-  position: relative;
-  z-index: 2;
+  position: absolute;
+  z-index: 10;
   padding: 0;
   max-width: 100%;
   color: white;
@@ -38,6 +43,15 @@ input {
 }
 
 #unmute-button {
+  position: absolute;
+  z-index: 10 ;
+  top: 0;
+}
+
+#details-section {
   position: relative;
-  z-index: 1;
+  display: block;
+  background-color: red;
+  height: 100vh;
+  width: 100vw;
 }

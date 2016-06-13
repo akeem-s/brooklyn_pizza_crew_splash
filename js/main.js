@@ -8,6 +8,7 @@ $(document).ready(function() {
       $("video").prop('muted', true);
     }
   });
-
-  $('#unmute-button').delay(5000).fadeOut('slow');
+  
+  // $('#unmute-button').delay(5000).fadeOut('slow');
+  $('video').click(function(){this.paused?this.play():this.pause();});
 });
