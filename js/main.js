@@ -10,7 +10,18 @@ $(document).ready(function() {
       $("video").prop('muted', true);
     }
   });
-  
+
+  $("#volume-on").click(function(event){
+      $("video").prop('muted', false);
+      $("#volume-on").hide()
+      $("#volume-off").show()
+  })
+
+  $("#volume-off").click(function(event){
+      $("video").prop('muted', true);
+      $("#volume-off").hide()
+      $("#volume-on").show()
+  })
   
   $('video').click(function(){this.paused?this.play():this.pause();});
 
