@@ -49,6 +49,34 @@ input {
   top: 0;
 }
 
+#volume-controls {
+  position: absolute;
+  bottom: 0;
+  right: 13vw;
+  z-index: 12;
+/*  height: 30vh;
+  width: 30vw;*/
+  display:inline-block;
+  font-size: 4vw;
+  bottom: 10vh;
+}
+
+.fa-volume-up {
+  position: absolute;
+  z-index: 12;
+  height: 10vh;
+  width: 10vw;
+  color: white;
+}
+
+.fa-volume-off {
+  position: absolute;
+  z-index: 12;
+  height: 10vh;
+  width: 10vw;
+  color: white;
+}
+
 /*Details Section CSS*/
 
 #details-section {
@@ -108,12 +136,12 @@ input {
 }
 
 #caputo {
-  max-width: 14%;
+  max-width: 12%;
   height: auto;
 }
 
 #ciao {
-  max-width: 15%;
+  max-width: 13%;
   height: auto;
 }
 
