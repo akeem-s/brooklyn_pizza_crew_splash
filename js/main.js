@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $("video").prop('muted', true);
-
+debugger;
   $("#unmute-button").click( function (){
     if( $("video").prop('muted') ) {
       $("video").prop('muted', false);
