@@ -49,6 +49,21 @@ input {
   top: 0;
 }
 
+#volume-controls {
+  position: absolute;
+  z-index: 12;
+  height: 30vh;
+  width: 30vw;
+  display:inline-block;
+}
+
+.fa {
+  position: absolute;
+  z-index: 12;
+  height: 10vh;
+  width: 10vw;
+}
+
 /*Details Section CSS*/
 
 #details-section {
