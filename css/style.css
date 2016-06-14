@@ -1,68 +1,131 @@
-#video-section {
-  display: block;
-  position: relative;
-  height: 100vh;
-  width: 100vw;
-  top: 0;
-  left: 0;
-  background-color: black;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-#video {
+.container {
+  overflow: hidden;
+  height: 100vh;
+  background: #edeae8;
   position: relative;
-  display: inline-block;
-  left: 0;
-  top: 0vh;
-  width: 100vw;
-  height: 100vh; 
-  padding: 0;
-  margin: 0;
-  border: 0;
-  z-index: -100;
   z-index: 1;
 }
 
-#logo {
-  position: absolute;
-  top: ;
-  left: 13vw;
-  z-index: 10;
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.logo { 
+  font-family: 'Oswald', sans-serif;
+  font-weight:700; 
   color: white;
+  padding: 1rem;
+  margin:1rem;
+  float: left;
+  z-index: 1;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .1rem;
 }
-
-#mailchimp {
+.volume-control {
+  z-index: 2;
   position: absolute;
-  z-index: 10;
-  padding: 0;
-  max-width: 100%;
-  color: white;
-  bottom: 0;
-  left: 13vw;
+  bottom: 0; left: 0; right: 0;
+
+}
+.volume-control a i {
+  color: #fff;
+  margin: 10px;
+  padding-right: 1rem;
+}
+.volume-control a:first-child {
+  float: left;
+}
+.volume-control a:last-child {
+  float: right;
+}
+.tooltiptext {
+    /*visibility: hidden;*/
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 0.3rem 1rem;
+    /* Position the tooltip */
+    position: relative;
+    bottom:18px;
 }
 
-input {
-  display: inline-block;
+.tooltiptext:hover {
+    visibility: visible;
 }
 
-#unmute-button {
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 100%; /* To the right of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+}
+
+.mail-chimp {
+  z-index: 2;
   position: absolute;
-  z-index: 10 ;
-  top: 0;
+  bottom: 0; left: 0; right: 0;
+  margin-left: 2rem;
+  margin: 1rem;
 }
 
-#volume-controls {
-  position: absolute;
-  bottom: 0;
-  right: 13vw;
-  z-index: 12;
-/*  height: 30vh;
-  width: 30vw;*/
-  display:inline-block;
-  font-size: 4vw;
-  bottom: 10vh;
+input[type=email]{
+    font-family: 'Roboto', sans-serif;
+    height: 15px;
+    padding: 1rem 2.3rem;
+    background-color:  rgba(0, 0, 0, 0.3);
+    border: 1px solid #fff;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 1rem;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+input[type=email]:focus {
+  outline: none;
+  background-color:  rgba(0, 0, 0, 0.7);
+  border: 1px solid #fff;
 }
 
-.fa-volume-up {
+input[type=submit]{
+    font-family: 'Roboto', sans-serif;
+    padding: 0.9rem 2rem;
+    background-color:  rgba(0, 0, 0, 0.6);
+    border: 1px solid #000;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 1rem;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: background-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: background-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    outline:none;
+}
+
+input[type=submit]:hover {
+  outline: none;
+  border: 0.8px solid #000;
+  background-color:  rgba(0, 0, 0, 7);
+}
+/*.fa-volume-up {
   position: absolute;
   z-index: 12;
   height: 10vh;
@@ -70,17 +133,17 @@ input {
   color: white;
 }
 
-.fa-volume-off {
+/*.fa-volume-off {
   position: absolute;
   z-index: 12;
   height: 10vh;
   width: 10vw;
   color: white;
-}
+}*/
 
 /*Details Section CSS*/
 
-#details-section {
+/*#details-section {
   position: relative;
   display: block;
   background-color: black;
@@ -122,7 +185,6 @@ input {
 }
 
 .sponsor-image {
-  /*box-shadow: 0px 313px rgba(255, 0, 92, 0.6) inset;*/
   -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
        -o-transition: all 1s ease;
@@ -131,8 +193,8 @@ input {
   -webkit-filter: grayscale(90%);
   border-radius: 20%;
 }
-
-.sponsor-image:hover {
+*/
+/*.sponsor-image:hover {
   -webkit-filter: grayscale(0%);
 }
 
@@ -159,7 +221,6 @@ input {
 #orlando {
   max-width: 20%;
   height: auto;
-}
-
+}*/
 
 
