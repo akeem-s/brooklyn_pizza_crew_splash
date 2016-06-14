@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
+body{
+    background-color: rgba(0,0,0,.9);
+}
 .container {
   overflow: hidden;
   height: 100vh;
@@ -125,65 +127,42 @@ input[type=submit]:hover {
   border: 0.8px solid #000;
   background-color:  rgba(0, 0, 0, 7);
 }
-/*.fa-volume-up {
-  position: absolute;
-  z-index: 12;
-  height: 10vh;
-  width: 10vw;
-  color: white;
+
+.content{
+  color: #fff;
+  margin: 0 1rem;
+}
+.subheading{
+  font-family: 'Oswald', sans-serif;
+  font-weight:700; 
+  color: #fff;
+  padding: 1rem;
+  z-index: 1;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.image{
+  float: left;
+  width: 40rem;
+  margin: 1rem 1rem 0 0;
 }
 
-/*.fa-volume-off {
-  position: absolute;
-  z-index: 12;
-  height: 10vh;
-  width: 10vw;
-  color: white;
-}*/
-
-/*Details Section CSS*/
-
-/*#details-section {
-  position: relative;
-  display: block;
-  background-color: black;
-  height: 100vh;
-  width: 100vw;
+.content p{
+font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  font-weight:300; 
+  letter-spacing: 2px;
+  line-height: 1.6em;
 }
-
-#nino-photo {
-  position: absolute;
+.sponsors{
   display: inline-block;
-  top: 6vh;
-  left: 7.3vw;
-  height: auto;
-  max-width: 35%;
-}
-
-#video-description {
-  position: absolute;
-  display: inline-block;
-  top: 6vh;
-  right: 3vw;
-  color: white;
-  width: 40vw;
-  right: 7.3vw;
-}
-
-#sponsor-bar {
-  position: absolute;
-  display: inline-block;
-  bottom: 0;
-  padding-top: 3vh; 
-  width: 90vw;
   text-align: center;
 }
-
-#sponsor-bar li {
-  display: inline;
+.sponsors li{
+  display: inline-block;
   overflow: hidden;
 }
-
 .sponsor-image {
   -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
@@ -193,11 +172,10 @@ input[type=submit]:hover {
   -webkit-filter: grayscale(90%);
   border-radius: 20%;
 }
-*/
-/*.sponsor-image:hover {
+.sponsor-image:hover {
   -webkit-filter: grayscale(0%);
 }
-
+/*
 #caputo {
   max-width: 12%;
   height: auto;
@@ -221,6 +199,8 @@ input[type=submit]:hover {
 #orlando {
   max-width: 20%;
   height: auto;
-}*/
+}
+*/
+
 
 
