@@ -3,7 +3,7 @@
   padding: 0;
 }
 body{
-    background-color: rgba(0,0,0,.9);
+    background-color: #fff;
 }
 .container {
   overflow: hidden;
@@ -35,6 +35,27 @@ video {
   text-transform: uppercase;
   margin-top: 0;
   letter-spacing: .1rem;
+}
+
+.social-media { 
+  font-family: 'Oswald', sans-serif;
+  font-weight:700; 
+  color: white;
+  padding: 1rem;
+  /*margin:1rem;*/
+  float: right;
+  z-index: 1;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  margin-top: -10px;
+  letter-spacing: .1rem;
+}
+
+.social-media a{
+  color: #fff;
+}
+.social-media a:hover{
+  color: #000;
 }
 .volume-control {
   z-index: 2;
@@ -89,9 +110,9 @@ video {
   z-index: 2;
   position: absolute;
   bottom: 0; left: 0; right: 0;
-  margin-left: 2rem;
+  padding-left: 20px;
   margin: 1rem;
-  width: 50%;
+  width: 35%;
 }
 
 input[type=email]{
@@ -125,6 +146,7 @@ input[type=submit]{
     -webkit-transition: background-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: background-color ease-in-out .15s,box-shadow ease-in-out .15s;
     outline:none;
+    cursor:pointer;
 }
 
 input[type=submit]:hover {
@@ -134,13 +156,13 @@ input[type=submit]:hover {
 }
 
 .content{
-  color: #fff;
-  margin: 0 1rem;
+  color: #000;
+  margin: 0 1.5rem;
 }
 .subheading{
   font-family: 'Oswald', sans-serif;
   font-weight:700; 
-  color: #fff;
+  color: #000;
   padding: 1rem;
   z-index: 1;
   font-size: 2rem;
@@ -150,14 +172,23 @@ input[type=submit]:hover {
 .image{
   float: left;
   width: 40rem;
-  margin: 1rem 1rem 0 0;
+  margin: 1rem 1.6rem 0 0;
+  padding-bottom: 0.4rem;
+    -webkit-filter: grayscale(100%);
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
 }
-
+.image:hover {
+  -webkit-filter: grayscale(0%);
+}
 .content p{
-font-family: 'Open Sans', sans-serif;
+font-family: 'Lato', sans-serif;
   font-size: 1rem;
-  font-weight:300; 
-  letter-spacing: 2px;
+  font-weight:400; 
+  letter-spacing: 1px;
   line-height: 1.9em;
 }
 .sponsors{
