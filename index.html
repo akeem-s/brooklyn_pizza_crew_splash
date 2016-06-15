@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 <body>
-  <div class="container" id="video-section">
+  <div class="container" id="video-section" >
       <h1 id="name-logo" class="logo">Brooklyn Pizza Crew</h1>
       <div class="social-media">
         <a href="https://www.facebook.com/BrooklynPizzaCrew/?fref=ts"><i class="fa fa-facebook-square" aria-hidden="true"></i></a><br>
@@ -22,14 +22,14 @@
       </video>
   </div>
   <div class="volume-control tooltip">
-        <a class="volume-icon" href="#"><span class="tooltiptext">Click for sound</span><i id="volume-on" class="fa fa-volume-up fa-4x" aria-hidden="true"></i></a>
+        <a class="volume-icon" href="#"><!-- <span class="tooltiptext">Click for sound</span> --><i id="volume-on" class="fa fa-volume-up fa-4x" aria-hidden="true"></i></a>
         <!-- <i id="volume-off" class="fa fa-volume-off fa-4x" aria-hidden="true"></i> -->
   </div>
     <!-- <button type="button" id="unmute-button">Click For Sound</button> -->
     <div class="mail-chimp" id="mailchimp">
       <div id="mc_embed_signup">
         <form action="//github.us13.list-manage.com/subscribe/post?u=b01fc30ddaa6cc5976a4fdfd7&amp;id=eaf18e8576" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-              <input  type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Subscribe...">
+              <input  type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email">
             <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
             <div id="mce-responses">
               <div class="response" id="mce-error-response"></div>
@@ -40,7 +40,7 @@
         <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
       </div>
     </div>
-      <section class="content">
+      <section class="content" data-parallax="scroll" data-image-src="img/nino-test.jpg">
         <img class="image" src="img/nino-test.jpg" />
           <h2 class="subheading">Brooklyn Pizza Crew</h2>
           <p>Truffaut listicle raw denim sartorial, migas venmo food truck single-origin coffee. Cray pour-over craft beer pabst migas cred. Chicharrones keffiyeh disrupt, yuccie squid knausgaard before they sold out four dollar toast readymade swag stumptown umami 3 wolf moon asymmetrical meh. Tacos williamsburg pork belly, polaroid messenger bag put a bird on it fashion axe forage blue bottle post-ironic. Messenger bag swag meggings, hammock hoodie VHS disrupt kinfolk fanny pack. Meggings venmo humblebrag fashion axe kombucha, pop-up readymade vinyl XOXO kale chips. Put a bird on it master cleanse mixtape pour-over, vegan man braid kogi salvia pickled austin tattooed humblebrag man bun.</p>
@@ -64,5 +64,6 @@
       </footer>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <script type="text/javascript" src="js/main.js"></script>
+      <script src="js/parallax.js-master/parallax.js"></script>
 </body>
 </html>

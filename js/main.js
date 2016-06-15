@@ -10,10 +10,10 @@ var header = (function(){
       event.stopImmediatePropagation();
        if($video.prop('muted') == true){
           $video.prop('muted', false)
-          $('.volume-icon').html("<div class='volume-control tooltip'><a class='volume-icon' href='#''><span class='tooltiptext'>Click to mute</span><i id='volume-on' class='fa fa-volume-off fa-4x' aria-hidden='true'></i></a></div>")
+          $('.volume-icon').html("<div class='volume-control tooltip'><a class='volume-icon' href='#''><i id='volume-on' class='fa fa-volume-off fa-4x' aria-hidden='true'></i></a></div>")
        }else{
           $video.prop('muted', true)
-          $('.volume-icon').html("<div class='volume-control tooltip'><a class='volume-icon' href='#''><span class='tooltiptext'>Click for sound</span><i id='volume-on' class='fa fa-volume-up fa-4x' aria-hidden='true'></i></a></div>")
+          $('.volume-icon').html("<div class='volume-control tooltip'><a class='volume-icon' href='#''><i id='volume-on' class='fa fa-volume-up fa-4x' aria-hidden='true'></i></a></div>")
        }
 
     }
@@ -23,7 +23,7 @@ var header = (function(){
       event.stopImmediatePropagation();
       $("#mailchimp").show();
       $(".volume-icon").show();
-      // $("#mailchimp").delay(3000).fadeOut('slow');
+      $("#mailchimp").delay(3000).fadeOut('slow');
       $('.volume-icon').delay(3000).fadeOut('slow');
     }
     function holdForm(event){
