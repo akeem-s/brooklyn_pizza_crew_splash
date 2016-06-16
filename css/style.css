@@ -223,8 +223,17 @@ footer a{
   text-decoration: none;
   color: #fff;
 }
+section.module{
+  box-shadow: 0px 0px 100px 10px #000 inset;
+  -webkit-box-shadow: 0 0 100px 10px #000 inset;
+  -moz-box-shadow: 0 0 100px 10px #000 inset;
+}
 section.module.parallax-1 {
-  /*background-image: url("../img/nino-test.jpg");*/
+  
+  background-image: url("../img/pizza.png");
+  /*background-image: url("../img/pizza-guy.png");*/
+  /*background-image: url("../img/table.jpeg");*/
+
 }
 
 section.module.parallax {
