@@ -223,3 +223,28 @@ footer a{
   text-decoration: none;
   color: #fff;
 }
+section.module.parallax-1 {
+  /*background-image: url("../img/nino-test.jpg");*/
+}
+
+section.module.parallax {
+  height: 300px;
+  margin-top: -35px;
+  background-position: 30% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+section.module.parallax h1 {
+  color: #fff;
+  font-size: 48px;
+  line-height: 18rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+

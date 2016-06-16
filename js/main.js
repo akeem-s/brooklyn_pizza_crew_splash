@@ -4,6 +4,7 @@ var header = (function(){
     function videoAudio(){
       $('video').click(function(){this.paused?this.play():this.pause();});
     }
+    
     function volumeOn(event){
       event.preventDefault();
       event.stopPropagation();
